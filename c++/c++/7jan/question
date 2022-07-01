@@ -1,0 +1,347 @@
+Q.1 C++ is developed by__________.
+A. Alan Kay.
+B. Bjarne Stroustrup.
+C. James Gosling.
+D. Brian Karnighan.
+Correct Answer : B
+
+Q.2 C++ is invented in year _________.
+A. 1972
+B. 1979
+C. 1983
+D. 1998
+Correct Answer : B
+
+Q.3 Which one of the following data type is introduced in C++.
+A. void
+B. char
+C. wchar_t
+D. wchar
+Correct Answer : C
+
+Q.4 In C++, by default structure members are ____ and class members are _________.
+A. private, private
+B. private, public
+C. public, public
+D. public, private
+Correct Answer : D
+
+Q.5 ________ is standard namespace in C++.
+A. global namespace
+B. std namespace
+C. default namespace
+D. system namespace
+Correct Answer : B
+
+Q.6 Select the wrong statement about namespace.
+A. We can define namespace as File scope.
+B. We can define namespace at namespace scope.
+C. we can define main function inside namespace.
+D. we can not define namespace inside function.
+Correct Answer : C
+
+Q.7 _______ operator is designed to use with cin.
+A. <
+B. <<
+C. >>
+D. >
+Correct Answer : C
+
+Q.8 Which one of the header file is required to use manipulator.
+A. iostream
+B. manip
+C. iomanip
+D. limits
+Correct Answer : C
+
+Q.9 Size of object of empty class is________.
+A. 0 byte
+B. 1 byte
+C. 2 bytes
+D. 4 bytes.
+Correct Answer : B
+
+Q.10 Select the correct statement about class.
+A. State, bahavior and identity are charactericts of class.
+B. Class represents structure and behavior of the object.
+C. Class get space inside memory.
+D. By default, access specifier of the class is private.
+Correct Answer : B
+
+Q.11 Which of the following function get this pointer
+A. Global function
+B. Static member function
+C. Constant member function
+D. Friend function
+Correct Answer : C
+
+Q.12 Select the correct statement about constructor
+A. We can call constructor on pointer/reference and object explicitly.
+B. We can declare constructor static, constant, volatile and virtual.
+C. We can declare constructor private/protected/public.
+D. Default return type of constructor is integer.
+Correct Answer : C
+
+Q.13 Which one of the following function compiler do not generate?
+A. Parameterless constructor.
+B. Parameterized constructor
+C. Copy constructor
+D. Assignment operator function.
+Correct Answer : B
+
+Q.14 Choose Correct statement about function overloading
+A. For function overloading function must be exist in different scope.
+B. We can not overload constructor but we can overload destructor.
+C. We can overload static and constant member functions.
+D. Function overloading represents runtime polymorphism.
+Correct Answer : C
+
+Q.15 Inside constant member function, if we want to modify state of non constant data member then we should use _______ keyword?
+A. static
+B. immutable
+C. mutable
+D. mutator
+Correct Answer : C
+
+Q.16. Select correct statement about reference
+A. We can store null value inside reference.
+B. We can create reference to reference.
+C. We can create array of references.
+D. We can create reference to array.
+Correct Answer : D
+
+Q.17. If we want to generate new exception then we shuld use _______ keyword?
+A. try
+B. catch
+C. throw
+D. throws
+Correct Answer : C
+
+Q.18 For thrown exception, if we do not define catch block then______
+A. Compiler generates error.
+B. C++ runtime invoke unexpected function.
+C. C++ runtime invoke terminate function.
+D. C++ runtime invoke abort function.
+Correct Answer : C
+
+Q.19 Choose correct statement.
+A. Macro is request to the preprocessor whereas inline is command to the compiler.
+B. In case of separation, we can specify default arguments in definition part only.
+C. We can not initialize array using member intializer list.
+D. Return type is considered in function overloading.
+Correct Answer : C
+
+Q.20 In Which one of the following condition, copy constructor do not call?
+A. If we pass object do the function by value.
+B. If we return object from function by value.
+C. If we initialize object from same object.
+D. If we assign object of same class to the another.
+Correct Answer : D
+
+Q.21 Which one of the following is correct syntax of copy constructor?
+A. const ClassName( ClassName &other )
+B. ClassName const ( ClassName &other )
+C. ClassName ( const ClassName &other )
+D. ClassName ( ClassName & const other )
+Correct Answer : C
+
+Q.22 Which one of the following operator we can not overload.
+A. =
+B. []
+C. ()
+D. ? :
+Correct Answer : D
+
+Q.23 Which one of the following is not a conversion function?
+A. Single parameter constructor.
+B. Copy constructor.
+C. Assignment operator function.
+D. Type converion operator function.
+Correct Answer : B
+
+Q.24 Which one of the following do not represent compile time polymorphism?
+A. Function Overloading
+B. Operator Overloading
+C. Function Overriding
+D. Template
+Correct Answer : C
+
+Q.25 If new operator fail to allocate memory then______.
+A. It return NULL.
+B. It throws bad_cast exception.
+C. It throws bad_typeid exception.
+D. It throws bad_alloc exception.
+Correct Answer : D
+
+Q.26. Select correct syntax of template.
+A. template class<T>
+B. <template class T>
+C. <template> class T
+D. template< class T>
+Correct Answer : D
+
+Q.27 Which one of the following function can be static.
+A. constant member function.
+B. virtual member function.
+C. volatile member function.
+D. global function.
+Correct Answer : D
+
+Q.28 Select the incorrect statement about static.
+A. Size of object do not depend on size of static data member.
+B. We can call static member function on object.
+C. Static member function get this pointer.
+D. Using instance, we can access non static members inside static member function.
+Correct Answer : C
+
+Q.29 If we want to access private members in different scope then we should use___
+A. scope resolution operator.
+B. friend function / class
+C. extern keyword
+D. None of the above.
+Correct Answer : B
+
+Q.30 Which one of the following keyword is allowed to use with destructor
+A. static
+B. const
+C. volatile
+D. virtual.
+Correct Answer : D
+
+Q.31 What will be the output of the following program?
+#include <iostream>
+using namespace std;
+class Program{
+    int id;
+    static int count;
+public:
+    Program() {
+        count++;
+        id = count;
+        cout << "constructor for id " << id << endl;
+    }
+    ~Program() {
+        cout << "destructor for id " << id << endl;
+    }
+};
+int Program::count = 0; //Global Definition
+int main() {
+    Program a[3];
+    return 0;
+} 
+A. constructor for id 1 constructor for id 2 constructor for id 3 destructor for id 3 destructor for id 2 destructor for id 1
+B. constructor for id 1 constructor for id 2 constructor for id 3 destructor for id 1 destructor for id 2 destructor for id 3
+C. Compiler Dependent
+D. constructor for id 1
+Correct Answer : A
+
+
+Q.32 What will be the output of the following program?
+#include <iostream>
+using namespace std;
+class Program{
+    static int x; 
+public:
+    static void Set(int xx){
+        x = xx; 
+    }
+    void Display() {
+        cout<< x ;
+    }
+};
+int Program::x = 0; 
+int main()
+{
+    Program::Set(33);
+    Program::Display();
+    return 0; 
+}
+A. The program will print the output 0.
+B. The program will print the output 33.
+C. The program will print the output Garbage.
+D. The program will report compile time error.
+Correct Answer : D
+
+Q.33 Which of the following statements are true about Catch handler? 
+    i)   It must be placed immediately after try block T. 
+    ii)  It can have multiple parameters. 
+    iii) There must be only one catch handler for every try block. 
+    iv)  There can be multiple catch handler for a try block T. 
+     v)  Generic catch handler can be placed anywhere after try block.
+
+A. Only i, iv, v
+B. Only i, ii, iii
+C. Only i, iv
+D. Only i, ii
+Correct Answer : C
+
+Q.34 How many objects reference can refer during its lifetime?
+A. 1
+B. 2
+C. 3
+D. 4
+Correct Answer : A
+
+Q.35 What is the output of following code
+#include<iostream>
+using namespace std;
+void print( int x ){
+    cout<<"int  :   "<<x<<endl;
+}
+void print( int &x ){
+    cout<<"int&  :   "<<x<<endl;
+}
+int main( void ){
+    print( 10 );
+    return 0;
+}
+A. int : 10
+B. int& : 10
+C. Ambiguity error
+D. Redefinition error
+Correct Answer : A
+
+Q.36 What is the output of following code
+int num1 = 10;
+namesapce A{
+    int num1 = 20;
+}
+int main( void ){
+    int num1 = 30;
+    using namespace A;
+    cout<<"num1 :    "<<num1<<endl;
+    return 0;
+}
+A. 10
+B. 20
+C. 30
+D. Compiler error
+Correct Answer : C
+
+Q.37 Choose incorrect statement about template
+A. Using template we can reduce code size.
+B. Using template we can not reduce code size.
+C. Using template we can not reduce time required to execute code.
+D. Using template we can reduce developers efforts.
+Correct Answer : A
+
+Q.38 Select correct Statement about inline function.
+A. We can declare main function inline.
+B. We cand declare constructor inline but we can not declare destructor inline.
+C. It is possible to divide inline function code in multiple files.
+D. In case of loop, recursion or jump statements, we can not declare function inline.
+Correct Answer : D
+
+Q.39 Manipulator is _________ which is used to format the output.
+A. Function
+B. Operator
+C. Object
+D. Keyword
+Correct Answer : A
+
+Q.40 Which of the following operator is not allowed to overload using non member function.
+A. =
+B. [ ]
+C. < >
+D. ( )
+Correct Answer

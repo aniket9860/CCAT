@@ -1,0 +1,107 @@
+1. What is the index number of the last element of an array with 9 elements?
+Answers
+1. 9
+2. 8(ans)
+3. 0
+4. 1
+
+2. If a copy constructor is not defined in a class then
+Answers
+1. Compiler itself defines one (ans)
+2. Compiler gives Syntax Error
+3. Compiler gives Run time Error
+4. None of Above
+
+3. Syntax for Copy constructor is
+Answers
+1. classname (const classname &obj) {    // body of constructor }  (ans)
+2. classname(){    // body of constructor }
+3. Both A and B
+4. None of above
+
+4. _________ is called when a new object is created from an existing object, as a copy of the existing object
+Answers
+1. Copy Constructor (ans)
+2. Default Constructor
+3. Assignment operator
+4. None of above
+
+5. Default copy constructor does __________
+Answers
+1. Deep Copy
+2. Shallow copy (ans)
+3. Both A and B
+4. None of Above
+
+6. Which of the following scenario deep copies generally required?
+Answers
+1. A constructor to either make an initial allocation or set the pointer to NULL.
+2. A destructor to delete the dynamically allocated memory.
+3. A copy constructor to make a copy of the dynamically allocated memory.
+4. An overloaded assignment operator to make a copy of the dynamically allocated memory.
+5. All of above (ans)
+
+7. Which of the following is/are automatically added to every class, if the programmer does not write it in the class?
+Answers
+1. Copy Constructor
+2. Assignment Operator
+3. Both A and B (ans)
+4. None of the above
+
+8. When a copy constructor may be called?
+Answers
+1. When an object of the class is returned by value.
+2. When an object of the class is passed (to a function) by value as an argument.
+3. When an already created object is assigned to newly created object of the same class
+4. When the compiler generates a temporary object.
+5. All of the above (ans)
+
+9. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+class Point
+{
+    int x;
+public:
+    Point(int x)
+	{
+    	this->x = x;
+	}
+    Point(const Point p)
+    {
+    	x = p.x;
+    }
+    int getX()
+    {
+    	return x;
+    }
+};
+int main()
+{
+   Point p1(10);
+   Point p2 = p1;
+   cout << p2.getX();
+   return 0;
+}
+Answers
+1. Compiler Error: p must be passed by reference (aNs)
+2. Garbage value
+3. 10
+4. None of the above
+
+10. Which of the following gives the address of the first element in array?
+Answers
+1. array[0];
+2. array[1];
+3. array(2);
+4. array; (ans)
+
+
+
+
+
+
+
+
+
+

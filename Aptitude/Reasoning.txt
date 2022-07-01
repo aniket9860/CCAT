@@ -1,0 +1,192 @@
+1. Study the following information carefully and answer the question.
+
+Ashwini, Priya, Sudha, Rani, Meeta, Geeta and Mukta are sitting around a circle facing the centre. 
+Ashwini is third to the left of Mukta and to the immediate right of Rani. Priya is second to the left of 
+Geeta who is not an immediate neighbour of Meeta.
+
+Who is to the immediate right of Priya?
+Answers
+1. Meeta
+2. Sudha
+3. Mukta(ans)
+4. Cannot be determined
+5. None of these
+
+
+2. Study the following information carefully and answer the question-
+
+Ashwini, Priya, Sudha, Rani, Meeta, Geeta and Mukta are sitting around a circle facing the centre.
+ Ashwini is third to the left of Mukta and to the immediate right of Rani. Priya is second to the left 
+of Geeta who is not an immediate neighbour of Meeta.
+
+Who is second to the left of Rani?
+Answers
+1. Ashwini
+2. Geeta(ans)
+3. Priya
+4. Sudha
+5. None of these
+
+
+3. Complete analogous pair: 
+Paw : Cat : : Hoof : ?
+Answers
+1. Horse(ans)
+2. Lion
+3. Lamb
+4. Elephant
+
+4. Complete analogous pair: 
+Agenda : Meeting :: ?
+1. Programme : Function(ans)
+2. Performance : Ticket
+3. Map : Scale
+4. Footnote : Article
+
+5. Detect Analogy -
+Mars : Mercury : Venus
+1. They have no opposite motion.
+2. They are evil planets.
+3. They are the planets nearest to the earth.(ans)
+4. They have no corresponding lucky stone.
+
+6. A is B`s sister. C is B`s mother. D is C`s father. E is D`s mother. Then, how is A related to D ?
+Answers
+1. Grandmother
+2. Grandfather
+3. Daughter
+4. Grand daughter(ans)
+
+7. If ,
+	P + Q means P is the husband of Q ;
+	P / Q means P is the sister of Q  and
+	P x Q means P is the son of Q,
+which of the following shows A is the daughter of B ?
+Answers
+1. C x B / A
+2. B + C x A
+3. D x B + C / A
+4. A / D x B(ans)
+5. None of these
+
+8. Choose or find odd word:
+	Fox , Wolf , Jackal , Deer , Panther
+Answers
+1. Fox
+2. Wolf
+3. Jackal
+4. Deer(ans)
+5. Panther
+
+9. If sky is called sea, sea is called water, water is called air, air is called cloud and cloud is called river, 
+then what do we drink when we are thirsty ?
+Answers
+1. sky
+2. air(ans)
+3. water
+4. sea
+5. cloud
+
+10. If in a certain code, 
+	'bir le nac' means 'green and tasty';
+	'pic nac hor' means 'tomato is green' and
+	'coc bir hor' means 'food is tasty'.
+Which of the following means 'tomato is tasty' in that code ?
+Answers
+1. bir le hor
+2. pic hor nac
+3. hor bir pic(ans)
+4. None of these
+
+11. A man drove his car 5 km towards eastward direction. He turned right went for 3 km, then he turned west and 
+drove for 1 km. How far is he from the starting point?
+Answers
+1. 4 km
+2. 5 km(ans)
+3. 6 km
+4. 2 km
+
+12. A train crosses a building in 3 seconds. What is the length of the train?
+I.  The train's speed is 10 meters/ second
+II. The building is 20 feet long.
+Answers
+1. If the data in statement I alone are sufficient.
+2. If the data in statement II alone are sufficient.
+3. If the data either in statement I alone or in statement II alone are sufficient.
+4. If the data given in both the statements I and II together are not sufficient.
+5. If the data in both the statements I and II together are necessary.(ans)
+
+13. Read the paragraph below and answer the question that follow:
+Seven friends - Manisha, Lamba, Appu, Ashok, Babu, Guru and Pankaj went to watch a movie and got to sit in the same row in adjacent seats (Not necessarily in the same order). Lamba is seated fourth to the left of Pankaj. Ashok is sitting to the rightmost seat in the row. Manisha and Guru are both the immediate neighbors of Lamba. Babu and Manisha are sitting right next to each other.
+
+Who is seated to the extreme ends of the row?
+Answers
+1. Guru, Appu
+2. Lamba, Ashok
+3. Guru, Ashok(ans)
+4. Lamba, Pankaj
+5. Guru, Pankaj
+
+14. Read the paragraph below and answer the question that follow:
+Seven friends - Manisha, Lamba, Appu, Ashok, Babu, Guru and Pankaj went to watch a movie and got to sit in the same row in adjacent seats (Not necessarily in the same order). Lamba is seated fourth to the left of Pankaj. Ashok is sitting to the rightmost seat in the row. Manisha and Guru are both the immediate neighbors of Lamba. Babu and Manisha are sitting right next to each other.
+
+Who sits exactly in the middle seat of the row?
+Answers
+1. Pankaj
+2. Manisha
+3. Babu(ans)
+4. Lamba
+5. Appu
+
+15. Statements:
+All buildings are rivers.
+All rivers are jungles.
+All jungles are mountains.
+Conclusions:
+I. Some mountains are rivers.
+II. Some jungles are buildings.
+III. Some mountains are buildings.
+Answers
+1. Only I and II follow
+2. Only I and III follow
+3. Only II and III follow
+4. All I, II and III follow(ans)
+5. None of these
+
+16. Find the next number in the following sequence:  1, 4, 27, 256,....
+Answers
+1. 3235
+2. 3135
+3. 3456
+4. 3125(ans)
+
+17. Find the odd one out -
+Answers
+1. ostrich
+2. penguin
+3. kiwi
+4. falcon(ans)
+
+18. If 'A' moves 20 metres in East direction and then turns to his left and then moves 15 metres and 
+then he turns to his right and moves 25 metres. After this he turns to his right and moves 15 metres. 
+Now, how far is he from starting point ?
+Answers
+1. 40 m
+2. 50 m
+3. 25 m
+4. 45 m(ans)
+
+19. If SUMMER is coded as RUNNER, then the code for WINTER is -
+Answers
+1. SUITER
+2. VIOUER(ans)
+3. WALKER
+4. SUFFER
+
+20. If VICTORY is coded as YLFWRUB, how can SUCCESS be coded ?
+Answers
+1. VXEEIVV
+2. VXFFHVV(ans)
+3. VYEEHVV
+4. VYEFIVV
+
